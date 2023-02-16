@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fontdroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-image: linear-gradient(#3cdc84,#164d2f);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    height: 150px;
+    padding: 15px;
+}
+header>h1,p{
+    text-align: center;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.507);
+}
+header>p{
+    padding: 25px;
+}
+.menu{
+    display: flex;
+    padding-top: 15px;
+    padding-left: 40px;
+    color: white;
+}
+.menu>li>a{
+    color: white;
+    text-decoration: none;
+}
+.menu>li>a{
+    padding: 10px;
+    font-weight: bold;
+}
+.menu>li>a:hover{
+    background-color: #84e1ad;
+    border-radius: 5px;
+    color: #1a5e38;
+}
+body{
+    background-color: #84e1ad;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.548);
+    
+    
+}
+main>article>h1{
+    font-family: fontdroid;
+    color: #377151;
+    
+}
+main>article>h2{
+    font-family: fontdroid;
+    color: #377151;
+    background-image: linear-gradient(#d5f1e2,#f6fcf9);
+}
+main>article>p{
+    text-shadow: none;
+}
+main img{
+    display: block;
+    margin: auto;
+    min-width: 300px;
+    max-width: 800px;
+}
+
+p{
+    padding: 10px;
+}
+.video{
+    position: relative;
+    background-color: #164d2f;
+    margin: 8px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+ 
+    
+}
+.video>iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+aside{
+    min-width: 300px;
+    max-width: 840px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.548);
+}
+aside>h2{
+    background-color: #2fa866;
+    color: white;
+    max-width: 800px;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+aside>p{
+    text-shadow: none;
+}
+
+
+.extra{
+    background-color: #c5ebd6;
+    max-width: 800px;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.extra>p{
+    text-shadow: none;
+}
+.extra ul{
+    columns: 2;
+    margin-left: 5px;
+}
+footer{
+    background-color: #1a5c38;
+    color: white;
+}
